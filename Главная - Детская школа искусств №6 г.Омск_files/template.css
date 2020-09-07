@@ -1,0 +1,1646 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+/*@font-face {
+    font-family: agfriquer;
+    src: url(/templates/atolldchi/fonts/AGFRIQR.ttf); 
+}*/
+
+.menu a{
+  font-size:1.25em;
+  font-family:georgia, arial, verdana;
+}
+
+body {
+  background:url("/templates/atolldchi/img/texture.jpg");
+  padding: 0;
+  margin: 0;  
+  font-size: 12px;
+  font-family:arial, verdana, sans;
+}
+
+h2, h3 {
+  font-weight: 400;
+  text-transform: uppercase;    
+}
+
+h2{   
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+h3 {   
+  font-size: 1.5em;
+}
+
+h4 {  
+  font-weight: 700;
+  font-size:1.25em;
+}
+
+blockquote {
+  font-size: 1.5em;
+}
+
+p, .documents-description {
+  font-size: 1.45em;
+}
+
+input {
+  font-size: 1.0em;
+}
+
+small {
+  font-size: 0.75em;
+}
+
+a {
+  outline: none;
+  color: #616161;
+  text-decoration: none;
+}
+
+#content a:hover {
+  outline: none;
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+#content .sitemap a:hover{
+  color: #616161;
+  text-decoration: none;
+}
+
+ul, ol {
+  font-size: 1.25em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main {
+  background:#f8f7f1 url("/templates/atolldchi/img/header.jpg") no-repeat center top;
+  position: relative;
+  height: 346px;
+  max-width: 1200px;
+  min-width: 1000px;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.inner{
+  background:#f8f7f1 url("/templates/atolldchi/img/header_2.jpg") no-repeat center top;
+  position: relative;
+  height: 346px;
+  max-width: 1200px;
+  min-width: 1000px;
+  margin: 0 auto;
+  z-index: 3;   
+}
+
+.logo {
+  position: relative;
+  height: 174px;
+  width: 174px;
+  margin: 0 auto;
+  top: 49px;
+  z-index: 2;
+  padding-left: 4px;
+}
+
+.menu_top {
+
+  margin: 145px auto;
+
+}
+
+.menu_top ul{
+  text-align: center;
+  padding: 0;
+}
+
+.menu_top li{
+  display: inline-block;
+  background: url("/templates/atolldchi/img/dot.png") no-repeat;
+  background-position: left center;
+  padding: 0 9px 0 12px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+
+}
+
+.menu_top li:first-child {
+  background: none;
+  padding-left: 0;
+}
+
+.menu_top li a {
+  color: #616161;
+  text-decoration: none;
+}
+
+.menu_top li:hover span, .menu_top li.current span, .sidebar-menu .nav-child li:hover span, .sidebar-menu .nav-child li.current span, .sitemap a:hover, .item-123 span:hover, .item-123 span.current, .item-233>span>a:hover, .item-233>span>a.current {
+  background: url("/templates/atolldchi/img/stroke_left.png") no-repeat scroll left bottom, url("/templates/atolldchi/img/stroke_right.png") no-repeat scroll right bottom, url("/templates/atolldchi/img/stroke_center.png") no-repeat scroll center bottom, url("/templates/atolldchi/img/stroke.png") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+  padding-bottom: 8px;
+  text-decoration: none;
+  color: #616161;
+} 
+
+.sidebar-menu .menu-link:hover, .sidebar-menu li.current .menu-link{
+  background: url("/templates/atolldchi/img/stroke_left.png") no-repeat scroll left bottom, url("/templates/atolldchi/img/stroke_right.png") no-repeat scroll right bottom, url("/templates/atolldchi/img/stroke_center.png") no-repeat scroll center bottom, url("/templates/atolldchi/img/stroke.png") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+  padding-bottom: 8px;
+  text-decoration: none;
+  color: #616161;
+}
+
+.menu-link:hover a{
+  color: #616161;
+}
+
+.name {
+
+  position: absolute;
+  width: 280px;
+  right: 50%;
+  margin-right: 193px;
+  top: 60px;
+}
+
+.namebig {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;    
+  color: white;
+  margin-bottom: 0;
+}
+
+.contacts {
+  font-size: 13px;
+  text-align: center;
+  color: #f8f7f1;
+  margin-top: 0;
+}
+
+.topright-buttons {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.topright-buttons div, .topright-buttons a{
+  float: left;
+}
+
+.topright-buttons a{
+  display: block;
+}
+
+.menu-home {
+  width: 11px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png")top left;  
+}
+
+.menu-home:hover {
+  width: 11px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png")center left;  
+}
+
+.menu-home:active {
+  width: 11px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png")bottom left;  
+}
+
+.menu-site-map {
+  margin: 0 5px;
+  width: 12px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png")top center;  
+}
+
+.menu-site-map:hover {
+  margin: 0 5px;
+  width: 12px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png")  center center;  
+  cursor: pointer;
+}
+
+.menu-site-map:active {
+  margin: 0 5px;
+  width: 12px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png")  bottom center;  
+  cursor: pointer;
+}
+
+.menu-letter-top {
+  width: 10px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png") top right;  
+}
+
+.menu-letter-top:hover {
+  width: 10px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png") center right;  
+  cursor: pointer;
+}
+
+.menu-letter-top:active {
+  width: 10px;
+  height: 9px;
+  background: url("/templates/atolldchi/img/buttons-top-right.png") bottom right;  
+  cursor: pointer;
+}
+
+.wrapper {
+  z-index: 2;
+}
+
+.center {
+  position: relative;
+  max-width: 1200px;
+  min-width: 1000px;
+  margin: 0 auto;
+  color: #616161;
+  background: #f8f7f1;
+  padding-top: 15px;
+}
+
+.strip {
+  position: relative;
+  background:url("/templates/atolldchi/img/strip.jpg") no-repeat center top;
+  height: 355px;
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+  padding: 20px 0 20px 0;
+}
+
+.content-inner {
+  width: 785px;
+  min-height: 413px;
+  margin: 0 auto;
+}
+
+.content-inner-sub {
+  width: 1000px;  
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.breadcrumbs {
+  margin:0 0 40px 0;
+}
+
+.breadcrumbs .menu {
+  text-align: center;
+  padding: 0;
+}
+
+.breadcrumbs .menu li {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.breadcrumbs .menu li span a{
+  display: block;
+}
+
+.breadcrumbs .item-184 {
+  background: url("/templates/atolldchi/img/graduates-button.jpg") no-repeat center top;
+  width: 202px;
+  height: 41px;
+  font-stretch: semi-condensed;
+  margin-right: 20px;
+}
+
+.breadcrumbs .item-184 span{
+  display: inline-block;
+  width: 170px;
+  height: 40px;
+  padding: 3px 12px 0 12px;
+}
+
+.breadcrumbs .item-185 {
+  background: url("/templates/atolldchi/img/graduates-button.jpg") no-repeat center top;
+  width: 202px;
+  height: 41px;
+  font-stretch: semi-condensed;
+  margin-left: 20px;
+}
+
+.breadcrumbs .item-184:hover,
+.breadcrumbs .item-185:hover,
+.breadcrumbs .item-184.current,
+.breadcrumbs .item-185.current {
+  background: url("/templates/atolldchi/img/graduates-button-hover.jpg") no-repeat center top;
+}
+
+.breadcrumbs .item-185 span{
+  display: inline-block;
+  width: 130px;
+  height: 40px;
+  padding: 3px 30px 0 30px;
+}
+
+.breadcrumb {
+  margin: 0 0 20px 120px;
+}
+
+.breadcrumb li{
+  display: inline-block;
+}
+
+.breadcrumb li a:hover{
+  text-decoration: underline;
+}
+
+.contacts-housings-wrap {
+  padding-top: 30px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contacts-housings-wrap > div {
+  display: inline-table;
+  vertical-align: middle;
+}
+
+.contacts-housings-header {
+  margin: 0 auto;
+  width: 170px;
+}
+
+.contacts-housings-inner {
+  min-width: 680px;
+  text-align: center;
+}
+
+.contacts-housings-inner > div{
+  display: inline-table;
+  vertical-align: top;
+}
+
+.contacts-line {
+  background: url("/templates/atolldchi/img/contacts-line.jpg") no-repeat center top;
+  height: 10px;
+  width: 665px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.contacts-housing {
+  font-size: 13px;
+  width: 280px;
+  margin: 0 10px;
+}
+
+.contacts-housing-mark > div{
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*.contacts-housing-mark:hover {
+  background: url("/templates/atolldchi/img/contacts-mark-hover.jpg") no-repeat center 70%;
+  text-decoration: none !important;
+  color: #616161 !important;
+  cursor: pointer;
+}
+
+.contacts-housing-mark.current, .contacts-housing-mark:active {
+  background: url("/templates/atolldchi/img/contacts-mark-active.jpg") no-repeat center 70%;
+  text-decoration: none !important;
+  color: #616161 !important;
+}*/
+
+.contacts-housing p{
+  margin: 0;
+}
+
+.contacts-housing-name {
+  padding-top: 20px;
+  font-style: italic;
+  height: 30px;
+}
+
+.contacts-housing-type {
+  height: 230px;
+  margin-bottom: 40px;
+}
+
+.contacts-housing-mark {
+  display: block;
+  background: url("/templates/atolldchi/img/contacts-mark.jpg") no-repeat center 70%;
+}
+
+.contacts-contacts {
+  font-size: 13px;
+  text-align: center;
+  margin-top:40px;
+}
+
+#telephone {
+  margin-left: 36px;
+}
+
+.letter {
+  background: url("/templates/atolldchi/img/envelope.png") no-repeat center top;
+  display: inline-block;
+  min-width: 100px;
+  height: 27px;
+  margin-top: 20px;
+}
+
+.letter:hover {
+  background: url("/templates/atolldchi/img/envelope.png") no-repeat center center;
+  display: inline-block;
+  min-width: 100px;
+  height: 27px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.letter:active {
+  background: url("/templates/atolldchi/img/envelope.png") no-repeat center bottom;
+  display: inline-block;
+  min-width: 100px;
+  height: 27px;
+  margin-top: 20px;
+}
+
+.letter p{
+  margin-top: 40px;
+  font-style: italic;
+}
+
+.feedback {
+  border: 1px solid #b7673c;
+  background: #f8f7f2;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  width: 510px;
+}
+
+.feedback p {
+  font-size: 13px;
+}
+
+.feedback h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.feedback textarea {
+  resize: none;
+  width: 464px;
+}
+
+.feedback-monogram {
+  background: url("/templates/atolldchi/img/feedback-monogram.png") no-repeat center top;
+  width: 146px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.submit {
+  background: url("/templates/atolldchi/img/submit-button.png") no-repeat center top;
+  height: 27px;
+  width: 124px;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.submit p {
+  padding-top: 5px;
+}
+
+.submit:hover {
+  background: url("/templates/atolldchi/img/submit-button.png") no-repeat center center;
+  height: 27px;
+  width: 124px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.submit:active {
+  background: url("/templates/atolldchi/img/submit-button.png") no-repeat center bottom;
+  height: 27px;
+  width: 124px;
+  text-align: center;
+}
+
+.sitemap {
+  margin-left: 80px;
+}
+
+.sitemap li{
+  margin: 10px 0 5px 0;
+  font-weight: 700;
+}
+
+.sitemap .nav-child li{
+  margin: 10px 0 5px 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.map {
+  border: 1px solid #b7673c;
+  width: 900px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.map-inner {
+  height: 350px;
+  width: 900px;
+}
+
+.page-header {
+  text-align: center;
+
+}
+
+.page-header h2 {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+.mainreadmore{
+  margin-top: 20px;
+  text-align: center;   
+  float: right;
+  margin-right: 130px;
+}
+
+.mainreadmore .btn {
+  color: #616161;
+  text-decoration: none;
+  font-style: italic;
+  display: inline-block;
+  background: url("/templates/atolldchi/img/readmore.png") no-repeat top center;
+  padding-top: 15px;
+  width: 350px;
+  font-size: 12px;
+}
+
+.readmore{
+  margin-top: 30px;
+  text-align: center;   
+}
+
+.readmore .btn {
+  color: #616161;
+  text-decoration: none;
+  font-style: italic;
+  display: inline-block;
+  background: url("/templates/atolldchi/img/horizontal-line.png") no-repeat left center;
+  width: 380px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.pull-left {
+  background: none repeat scroll 0 0 #F2E3D0;
+  border: 1px solid #B7673C;
+  float: left;
+  margin: 0 20px 20px 0;
+  padding-bottom: 12px;
+  width: 199px;
+}
+
+.item-image img{
+  margin: 15px 0 0 15px;
+  border: 1px solid #b7673c;
+  width: 167px;
+}
+
+.clear {
+  clear: both;
+}
+
+.xxx {
+  background: url("/templates/atolldchi/img/horizontal-line.png") no-repeat left center; 
+  text-align: right;
+  width: 375px;
+  padding: 0;
+}
+
+.sidebar-menu-right {
+  display: inline-table;
+}
+
+.sidebar-menu, .graduates-sidebar-menu {
+  float: left;
+}
+
+.sidebar-menu + #content {
+  margin-left: 290px;
+}
+
+.sidebar-menu ul, .sidebar-menu-right ul{
+  display: inline-table;
+  padding: 0 40px;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 14px;
+  max-width: 250px;
+}
+
+.sidebar-menu li {
+  padding-top: 4px;
+}
+
+.sidebar-menu li span{
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.sidebar-menu li:first-child {
+  padding-top: 0;
+}
+
+.sidebar-menu {
+  position: relative;
+  min-height: 106px;
+  margin-right: 20px;
+}
+
+.sidebar-menu .menu-wrapper{
+  position:relative;
+}
+.sidebar-menu li{
+  padding: 10px 0;
+}
+
+
+.item-page {
+  overflow:hidden;
+}
+
+.item-page table{
+  width: 100%;
+}
+
+.bannergroup{
+  margin-top: 20px;
+  position: relative;
+  overflow:hidden;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.banneritem{
+  float:left;
+}
+.bannergroup img{
+  width: 100%;
+  height: auto;  
+}
+
+.another-monogram-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 26px;
+  background: url("/templates/atolldchi/img/so_many_monograms_top.png") no-repeat top center, 
+    url("/templates/atolldchi/img/so_many_monograms_center.png") no-repeat center center, 
+    url("/templates/atolldchi/img/so_many_monograms_bottom.png") no-repeat bottom center, 
+    url("/templates/atolldchi/img/so_many_monograms_repeat.png") repeat-y center;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; 
+}
+
+.another-monogram-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 26px;
+  background: url("/templates/atolldchi/img/so_many_monograms_top.png") no-repeat top center, 
+    url("/templates/atolldchi/img/so_many_monograms_center.png") no-repeat center center, 
+    url("/templates/atolldchi/img/so_many_monograms_bottom.png") no-repeat bottom center, 
+    url("/templates/atolldchi/img/so_many_monograms_repeat.png") repeat-y center;
+}
+
+.news {
+  padding-top: 30px;
+  width: 785px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.moduletable h3 {
+  margin-bottom: 0;
+}
+
+.news-item-left {
+  display: inline-table;
+  width: 100%;
+  padding-right: 15px;
+  vertical-align: top;
+}
+
+.news-item-right {
+  display: inline-table;
+  width: 366px;
+  padding-left: 15px;
+  vertical-align: top;
+}
+
+.news-item-left h4, .news-item-right h4{
+  margin: 0;
+  margin-bottom: 0.2em;
+}
+
+.news-item-left h4 a, .news-item-right h4 a{
+  color: #616161;
+  text-decoration: none;
+}
+
+.news-item-left h4 a:hover, .news-item-right h4 a:hover{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.news-item-left p, .news-item-right p{
+  margin-top: 0;
+}
+
+.news-item-left .date {
+  background: url("/templates/atolldchi/img/horizontal-line-rev.png") no-repeat 32% center;
+  font-size: 1.25em;
+  margin-left: 221px;
+}
+
+.news-item-right .date {
+  background: url("/templates/atolldchi/img/horizontal-line-rev.png") no-repeat right center; 
+  font-size: 1.25em;
+}
+
+.line-vertical {
+  position: relative;
+  background: url("/templates/atolldchi/img/vertical-line-dot.png") no-repeat top,
+    url("/templates/atolldchi/img/vertical-line-bottom.png") no-repeat bottom,
+    url("/templates/atolldchi/img/vertical-line-center.png") repeat-y;
+  width: 13px;
+  top: 0;
+  bottom: 15px;
+  display: inline-block;
+}
+
+.newsflash {
+  position: relative;
+}
+
+#content {
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+#content-graduates-all {
+  width: 1000px;
+}
+
+.item_fields li {
+  margin-bottom: 15px;
+}
+
+.items a:hover {
+  color: #0000ff;
+}
+
+.items .poster-date{
+  padding-left: 20px;
+  list-style-type: none;
+  background: url("/templates/atolldchi/img/dot.png") no-repeat left center;
+}
+
+.items .poster-stroke{
+  width: 30px;
+}
+
+.items ul {
+  padding-left: 0;
+}
+
+.items a {
+  color: #616161;
+}
+
+
+.blog-achive .items-leading .page-header h2, .news .newsflash h4{
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+}
+
+.news .newsflash h4 {
+  font-size: 16px;
+}
+
+.blog-achive .items-leading > div, .news .newsflash > div {    
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.blog-achive .readmore {
+  text-align: right;
+}
+
+.blog .items-leading .page-header h2{
+
+  margin-bottom: 20px;
+}
+
+.blog .items-leading > div .page-header +div{
+  margin-left: 221px;
+}
+
+.graduates-item, .graduates-item-all {
+  display: inline-table;
+  height: 250px;
+  width: 200px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.graduates-item p, .graduates-item-all p{
+  margin: 0;
+}
+
+.graduates-item .page-header, .graduates-item-all .page-header, .graduates-image-outer .page-header {
+  text-align: center;
+  float: none;
+  width: 100%;
+  margin:7px 0;
+}
+
+.graduates-image-outer .page-header {
+  float: left;
+  margin-top: 15px;
+}
+
+.graduates-item .page-header h2, .graduates-item-all .page-header h2, .graduates-image-outer .page-header h2{
+  margin: 0;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.graduates-item .pull-left, .graduates-item-all .pull-left {
+  margin: auto;
+  background: #f2e3d0;
+  height: 199px;
+  width: 199px;
+  border: 1px solid #b7673c;
+  float: none;
+}
+
+.graduates-item .readmore .btn {
+  background: url("/templates/atolldchi/img/horizontal-line-small.png") no-repeat left center;
+  width: 200px;
+}    
+
+.graduates-item .readmore {
+  margin-top: 10px;
+  margin-right: 0px !important;
+  text-align: right;
+}
+
+.graduates-sidebar-menu p {
+  margin: 6px 0;
+}
+
+.graduates-sidebar-menu li:hover, .graduates-sidebar-menu li.current{
+  margin: 6px 0;
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.graduates-sidebar-menu-right ul{
+  display: inline-table;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+.graduates-sidebar-menu-right p{
+  margin: 3px 0;
+}
+
+.graduates-sidebar-menu-right li {
+  height: 30px;    
+}
+
+.graduates-sidebar-menu-right li:hover, .graduates-sidebar-menu-right li.current {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.graduates-sidebar-menu-right {
+  float: right;
+  position: relative;
+  width: 120px;
+}
+
+.graduates-sidebar-menu-right-buttontop {
+  width: 50px;
+  height: 11px;
+  background: url("/templates/atolldchi/img/buttons-year.png") top;
+  margin: 0 auto;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; 
+  margin-bottom: 10px;
+}
+
+.graduates-sidebar-menu-right-buttontop:hover {
+  width: 50px;
+  height: 11px;
+  background: url("/templates/atolldchi/img/buttons-year.png") bottom;
+  margin: 0 auto;
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; 
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.graduates-sidebar-menu-right-buttonbottom {
+  width: 50px;
+  height: 11px;
+  background: url("/templates/atolldchi/img/buttons-year.png") top;
+  margin: 0 auto;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; 
+}
+
+.graduates-sidebar-menu-right-buttonbottom:hover {
+  width: 50px;
+  height: 11px;
+  background: url("/templates/atolldchi/img/buttons-year.png") bottom;
+  margin: 0 auto;
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; 
+  cursor: pointer;
+}
+
+.graduates-image-outer {
+  padding: 0 300px 0 300px;
+}
+
+.graduates-image-inner .pull-left{
+  margin: 0;
+}
+
+.graduates-image-inner {
+  margin: 0 auto;
+  height: 250px;
+  width: 200px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.cols-2 {
+  text-align: center;
+}
+
+.span4 {
+  width: 330px;
+  display: inline-block;
+}
+
+.span6 img{
+  margin: 13px 0 0 1px;
+}
+
+.span6 {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.column-1, .column-2, .column-3 {
+  text-align: center;
+}
+
+.graduates-item .item-image img{
+  margin: 14px 0 0 3px;
+  border: 1px solid #b7673c;
+}
+
+.cols-3, .cols-2 {
+  margin-bottom: 40px;
+}
+
+.items-row .item p{
+  text-align: center;
+}
+
+.items-row .item .readmore {
+  text-align: right;
+  margin-right: 40px;
+}
+
+.items-row .span12 .item p{
+  text-align: left;
+}
+
+.items-row .span12 .item .mainreadmore {
+  text-align: center;
+}
+
+.items-row .span12 .item .readmore {
+  text-align: right;
+}
+
+.span12 h2 {
+  margin: 0;
+}
+
+.poster  {
+  margin: 0 auto;
+  width: 860px;
+}
+
+.poster-item {
+  width: 785px;
+  margin: 0 auto;
+}
+
+.poster  h3{
+  margin-bottom: 0;  
+  margin-top: 2em;
+}
+
+.poster .moduletable{
+  margin-top: -10px;
+}
+
+.poster  h3 a, .news h2 a{
+  color: #616161;
+  text-decoration: none;
+  margin-left: 57px;
+}
+
+.news h2 a{
+  margin: 0;
+  font-size: 26px;
+}
+
+.poster  h3 a:hover, .news h2 a:hover{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+/*.poster-inner {
+    padding-bottom: 20px;
+}*/
+
+.poster-inner div {
+  display: inline-table;
+  vertical-align: middle; 
+}
+
+.info {
+  width: 785px;
+  vertical-align: top;
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+.info a{
+  color: #616161;
+}
+
+.info a:hover{
+  color: #0000ff;
+}
+
+.info-item{
+  margin: 7px 0 7px 0;
+  width: 785px;
+  font-size:1.25em;
+}
+
+.info div{
+  display: inline-table;
+}
+
+.poster-date {
+  min-width: 100px;
+  max-width: 125px;
+  font-style: italic;
+  text-align: left;
+}
+
+.poster-stroke {
+  width: 50px;
+  text-align: center;
+}
+
+.poster-name {
+  width: 450px;
+  text-align: left;
+}
+
+.poster-line {
+  min-width: 50px;
+  text-align: center;
+  color: #b7673c;
+}
+
+.poster-hall {
+  font-style: italic;
+  width: 65px;
+  margin-left: 15px;
+}
+
+.documents-download-doc, .documents-download-pdf, .documents-download-xls {
+  display: inline-block;
+  text-align: center;
+  margin-right: 2px;
+}
+
+.documents-download-pdf a{ 
+  background: url("/templates/atolldchi/img/download-pdf.jpg") no-repeat top center; 
+  display: block;
+  padding-top:50px;
+  margin-top: 15px;
+  width: 60px;
+  font-size: 13px;
+}
+
+.documents-download-doc a{
+  background: url("/templates/atolldchi/img/download-doc.jpg") no-repeat top center; 
+  display: block;
+  padding-top:50px;
+  margin-top: 15px;
+  width: 60px;
+  font-size: 13px;    
+}
+
+.documents-download-xls a{
+  background: url("/templates/atolldchi/img/download-xls.jpg") no-repeat top center; 
+  display: block;
+  padding-top:50px;
+  margin-top: 15px;
+  width: 60px;
+  font-size: 13px;    
+}
+
+.documents-image-outer {
+  float: left;
+}
+
+.documents-image-outer .pull-left {
+  float: none;
+}
+
+.documents-item h2{
+  margin-bottom: 15px;
+  font-size:  18px;
+}
+
+.vertical-monogram-left {
+  background:url("/templates/atolldchi/img/vertical-monogram.png") no-repeat;
+  height: 155px;
+  width: 31px;
+
+}
+
+.vertical-monogram-right {
+  background:url("/templates/atolldchi/img/vertical-monogram.png") no-repeat;
+  height: 155px;
+  width: 31px;
+  vertical-align: middle;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; 
+}
+
+.monogram {
+  background:url("/templates/atolldchi/img/monogram.png") no-repeat;
+  height: 74px;
+  width: 990px;
+  margin: 0 auto;
+}
+
+.monogram-bottom {
+  position: relative;
+  background:url("/templates/atolldchi/img/monogram_bottom.png") no-repeat;
+  height: 77px;
+  width: 990px;
+  margin: 0 auto;
+  bottom: 0;
+
+}
+
+footer {
+  position: relative;
+  text-align: center;  
+}
+
+footer p{
+  height: 50px;
+  display: inline-block;
+  margin: 0;
+  font-size: 12px;
+}
+
+footer p a{
+  text-decoration: none;
+  color: #616161;
+}
+
+footer p a:hover{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.footer-conts {
+  margin-right: 250px;
+}
+
+.footer-line {
+  height: 10px;
+  width: 185px;
+  background:url("/templates/atolldchi/img/line.jpg") no-repeat ;
+  margin: 0 auto 50px;
+}
+
+.logo-atoll {
+  display: block;
+  position: absolute;
+  background: url("/templates/atolldchi/img/logo_atoll.jpg") no-repeat;
+  height: 41px;
+  width: 92px;
+  left: 50%;
+  bottom: 42px;
+  margin-left: 340px;
+}
+
+.atoll {
+  padding-right: 115px;
+}
+
+.pagination-list{
+  text-align: center; 
+}
+
+.pagination-list li{
+  display:inline-block;
+  margin:0 10px;  
+}
+
+.carousel{
+  position:relative;
+  left:50%;
+  width:50%;
+  top:60px;
+}
+
+.carousel h3{
+  text-align: center;
+  color:#f8f7f1;
+}
+
+.carousel img{
+  border:1px solid #f1e3d0;
+  margin:0 10px;
+}
+
+.carousel .carousel-wrapper{
+  width:80%;
+  margin:0 auto;
+  position:relative;
+}
+
+.left-carousel-line, .right-carousel-line{
+  background: url("/images/dchi6/slider-line.png") left center no-repeat;
+  height:150px;
+  width:1px;
+  position:absolute;
+}
+
+.left-carousel-line{
+  left:0;
+}
+
+.right-carousel-line{
+  right:0;
+}
+
+.carousel .arrow{
+  background: url("/images/dchi6/slider-arrows.png") no-repeat 0 0;
+  width:11px;
+  height:15px;
+  top:70px;
+  position:relative;
+}
+
+.carousel .arrow a{
+  display:block;
+  width:100%;
+  height:15px;
+}
+
+.carousel .arrow:hover{
+  cursor:pointer;
+}
+
+.carousel .arrow:active{
+  opacity:0.8;
+}
+
+.left-carousel-line .arrow{
+  margin-left: -5px;
+}
+
+.right-carousel-line .arrow{
+  background-position: 0 -15px;
+  margin-left: -5px;
+}
+
+.tooltip{
+  position:absolute;
+  z-index:999;
+  left:-9999px;
+  padding:5px;
+  width:250px;
+  background: rgba(0,0,0,0.9);
+}
+
+.tooltip p{
+  margin:0;
+  color:#fff;
+  padding:2px 7px;
+}
+
+.sidebar-menu ul .nav-child {
+  margin-top: 15px;
+}
+
+.blog {
+  margin-top: 30px;
+}
+
+.grad {
+  background: url("/templates/atolldchi/img/header_3.jpg") no-repeat scroll center top #F8F7F1;
+  height: 346px;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 1000px;
+  position: relative;
+  z-index: 3;
+}
+
+.items-leading > div {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.item-page p a+a{
+  margin-left: 40px;
+}
+
+.grad-img {
+  display: inline-block;
+  height: 130px;
+  overflow: hidden;
+}
+
+.otdel {
+  height: 400px;
+}
+
+#content ul li, #content ol li, #content ol li p, #content ul li p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.category-desc {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.item-page table {
+  border-collapse: collapse;
+  border: 2px #3c3c3c solid;
+}
+
+.item-page table tr:first-child {
+  border: 2px #3c3c3c solid;    
+}
+
+.s1 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+.s2 {
+  color: #FF0000;
+}
+
+.s3 {
+  color: #0000FF;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.s8 {
+  color: #0000FF;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.pagination p, .pagination ul{
+  display: inline-block;
+}
+
+#content .pagination ul li {
+  margin: 0 5px;
+}
+
+.category-desc {
+  background: none repeat scroll 0 0 #F2E3D0;
+  border: 1px solid #B7673C;
+  margin: 0 auto 60px;
+  padding-bottom: 12px;
+  width: 534px;
+}
+
+.category-desc img {
+  border: 1px solid #B7673C;
+  margin-top: 15px;
+}
+
+a:hover {
+  color: #0000FF;
+}
+
+.pg-categories-view {
+  position: relative;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.mapmap, .logo area {
+  border: 0;
+}
+
+body > .tooltip {
+  display: none;
+}
+
+.s4 {
+  color: #000000;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.s6 {
+  color: #2F55A6;
+  font-weight: bold;
+}
+
+.p1 .modal {
+  margin-bottom: 20px;
+}
+
+.item-page .p1 a + a {
+  margin: 0 ;
+}
+
+.fux {
+  color: #ff00ff;
+}
+
+.blue {
+  color: #0000ff;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.news-data {
+  display: inline-block;
+  width: 100px;
+  margin: 0;
+}
+
+.pagination-list li.active {
+  text-decoration: underline;
+}
+
+#content .pagination-list li.active a:hover {
+  color: #616161;
+}
+
+ol.list li {
+  list-style-type: decimal;
+}
+
+ul.list li {
+  list-style-type: disc;
+}
+
+.brown {
+  color: #804040;
+  text-transform: none;
+}
+
+.wrapper .items-leading p, .wrapper .items-leading p span, .item-page p,  .item-page p span{
+  font-size:14px !important;
+}
+
+.pg-csv-box{
+  height: 215px !important;
+  width: 168px !important;
+}
+
+.img_b{
+  padding: 15px;
+  border: 1px solid #B7673C;
+  display: block;
+  background-color: #F2E3D0;
+}
+
+.img_b img{
+  border: 1px solid #B7673C;
+  width: 100%;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.item-page a{
+  text-decoration: underline;
+}
+
+.menu-link a{
+   font-size:1.25em;
+   font-family: georgia, arial, verdana;
+}

@@ -1,0 +1,100 @@
+(function ($) {
+  $(document).ready(function () {
+
+    var oldFontsize = getCookie('fontsize');
+    var oldBgcolor = getCookie('fontbg');
+    var specialVersion = getCookie('specialvesion');
+    if (specialVersion) {
+      specialVersionAddClass(true);
+    }
+    $('html').addClass(oldFontsize);
+    $('html').addClass(oldBgcolor);
+
+    $('.special-version').click(function (e) {
+      e.preventDefault();
+      var state = parseInt($('body').css('margin-top'), 10) > 0;
+      $('body').animate({'margin-top': (state ? 0 : 65)}, 'slow');
+      $('#special-version-controls').slideToggle();
+    });
+
+    $('#special-version-controls .close').click(function () {
+      var state = parseInt($('body').css('margin-top'), 10) > 0;
+      $('body').animate({'margin-top': (state ? 0 : 65)}, 'slow');
+      $('#special-version-controls').slideUp();
+    });
+
+    $('#crfont-style a').click(function (e) {
+      e.preventDefault();
+      var oldFontsize = getCookie('fontsize');
+      var fontsize = $(this).attr('data-size');
+      $('html').addClass('fontsize' + fontsize).removeClass(oldFontsize);
+      document.cookie = "fontsize=fontsize" + fontsize;
+      specialVersionAddClass(true);
+    });
+
+    $('#bgcolor-style a').click(function (e) {
+      e.preventDefault();
+      var oldBgcolor = getCookie('fontbg');
+      var bgcolor = $(this).attr('data-params');
+      $('html').addClass('fontbg' + bgcolor).removeClass(oldBgcolor);
+      document.cookie = "fontbg=fontbg" + bgcolor;
+      specialVersionAddClass(true);
+    });
+
+    $('#cr_version_link').click(function (e) {
+      e.preventDefault();
+      var oldBgcolor = getCookie('fontbg');
+      var oldFontsize = getCookie('fontsize');
+      $('html').removeClass();
+      specialVersionAddClass(false);
+      removeCokkie('specialvesion');
+      document.cookie = "fontsize=none";
+      document.cookie = "fontbg=none";
+    });
+    
+    function removeCokkie(sKey, sPath, sDomain) {
+    document.cookie = encodeURIComponent(sKey) + 
+                  "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + 
+                  (sDomain ? "; domain=" + sDomain : "") + 
+                  (sPath ? "; path=" + sPath : "");
+}
+
+    function getCookie(name) {
+      var dc = document.cookie;
+      var prefix = name + "=";
+      var begin = dc.indexOf("; " + prefix);
+      if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0)
+          return null;
+      } else
+      {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+          end = dc.length;
+        }
+      }
+      return unescape(dc.substring(begin + prefix.length, end));
+    }
+
+    $(window).load(function () {
+      $('.special-version a').click(function () {
+      });
+
+    });
+
+    function specialVersionAddClass(lever) {
+      if (lever === true) {
+        $('html').addClass('special-version-enable');
+        document.cookie = "specialvesion=true";
+      } else {
+        $('html').removeClass('special-version-enable');
+        document.cookie = "specialvesion=none";
+      }
+
+    }
+
+
+  });
+})(jQuery);

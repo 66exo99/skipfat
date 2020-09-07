@@ -1,0 +1,386 @@
+.special-version {
+  /*  background: orangered none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-size: 17px !important;
+    margin-right: 15px;
+    margin-top: 12px;
+    padding: 11px 9px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    width: 233px;
+    z-index: 5;*/
+}
+.special-version:hover {
+  /*  background: #c47775;*/
+}
+.special-version:hover {
+  /* text-decoration: none;*/
+}
+.fontsize20 p:not(.no-change),
+.fontsize20 h2:not(.no-change),
+.fontsize20 h1:not(.no-change),
+.fontsize20 h3:not(.no-change),
+.fontsize20 h4:not(.no-change) {
+  font-size: 20px !important;
+  line-height: 1.25 !important;
+}
+.fontsize20 div:not(.no-change) {
+  font-size: 20px !important;
+  height: auto !important;
+  line-height: 1.25 !important;
+}
+.fontsize20 a:not(.no-change) {
+  font-size: 20px !important;
+  height: auto !important;
+  line-height: 1.25 !important;
+}
+.fontsize20 span :not(.close) {
+  font-size: 20px !important;
+  height: auto !important;
+  line-height: 1.25 !important;
+}
+.fontsize24 p:not(.no-change),
+.fontsize24 h2:not(.no-change),
+.fontsize24 h1:not(.no-change),
+.fontsize24 h3:not(.no-change),
+.fontsize24 h4:not(.no-change) {
+  font-size: 24px !important;
+  line-height: 1.25 !important;
+}
+.fontsize24 div:not(.no-change) {
+  font-size: 24px !important;
+  height: auto !important;
+  line-height: 1.25 !important;
+}
+.fontsize24 a:not(.no-change) {
+  font-size: 24px !important;
+  height: auto !important;
+  line-height: 1.25 !important;
+}
+.fontsize24 span:not(.close) {
+  font-size: 24px !important;
+  height: auto !important;
+  line-height: 1.25 !important;
+}
+.fontsize28 p:not(.no-change),
+.fontsize28 h2:not(.no-change),
+.fontsize28 h1:not(.no-change),
+.fontsize28 h3:not(.no-change),
+.fontsize28 h4:not(.no-change) {
+  font-size: 28px !important;
+  line-height: 1.25 !important;
+}
+.fontsize28 div:not(.no-change) {
+  font-size: 28px !important;
+  height: auto !important;
+  line-height: 1.25 !important;
+}
+.fontsize28 a:not(.no-change) {
+  font-size: 28px !important;
+  height: auto !important;
+  line-height: 1.25 !important;
+}
+.fontsize28 span:not(.close) {
+  font-size: 28px !important;
+  height: auto !important;
+}
+.fontbgbgwhitecolorblack {
+  background: #fff !important;
+  color: #000 !important;
+  line-height: 1.25 !important;
+}
+.fontbgbgwhitecolorblack p,
+.fontbgbgwhitecolorblack span,
+.fontbgbgwhitecolorblack h2,
+.fontbgbgwhitecolorblack h1,
+.fontbgbgwhitecolorblack h3,
+.fontbgbgwhitecolorblack h4,
+.fontbgbgwhitecolorblack body,
+.fontbgbgwhitecolorblack section,
+.fontbgbgwhitecolorblack header,
+.fontbgbgwhitecolorblack footer {
+  background: #fff !important;
+  color: #000 !important;
+  line-height: 1.25 !important;
+}
+.fontbgbgwhitecolorblack div:not(.no-change) {
+  background: #fff !important;
+  color: #000 !important;
+  line-height: 1.25 !important;
+}
+.fontbgbgwhitecolorblack a:not(.no-change) {
+  background: #fff !important;
+  color: #000 !important;
+  line-height: 1.25 !important;
+}
+.fontbgbgblackcolorwhite {
+  background: #000 !important;
+  color: #fff !important;
+  line-height: 1.25 !important;
+}
+.fontbgbgblackcolorwhite p,
+.fontbgbgblackcolorwhite span,
+.fontbgbgblackcolorwhite h2,
+.fontbgbgblackcolorwhite h1,
+.fontbgbgblackcolorwhite h3,
+.fontbgbgblackcolorwhite h4,
+.fontbgbgblackcolorwhite body,
+.fontbgbgblackcolorwhite section,
+.fontbgbgblackcolorwhite header,
+.fontbgbgblackcolorwhite footer {
+  background: #000 !important;
+  color: #fff !important;
+  line-height: 1.25 !important;
+}
+.fontbgbgblackcolorwhite div:not(.no-change) {
+  background: #000 !important;
+  color: #fff !important;
+  line-height: 1.25 !important;
+}
+.fontbgbgblackcolorwhite a:not(.no-change) {
+  background: #000 !important;
+  color: #fff !important;
+  line-height: 1.25 !important;
+}
+.fontbgbluecolor {
+  background: #9dd1ff !important;
+  color: #063462 !important;
+  line-height: 1.25 !important;
+}
+.fontbgbluecolor p,
+.fontbgbluecolor span,
+.fontbgbluecolor h2,
+.fontbgbluecolor h1,
+.fontbgbluecolor h3,
+.fontbgbluecolor h4,
+.fontbgbluecolor body,
+.fontbgbluecolor section,
+.fontbgbluecolor header,
+.fontbgbluecolor footer {
+  background: #9dd1ff !important;
+  color: #063462 !important;
+  line-height: 1.25 !important;
+}
+.fontbgbluecolor div:not(.no-change) {
+  background: #9dd1ff !important;
+  color: #063462 !important;
+  line-height: 1.25 !important;
+}
+.fontbgbluecolor a:not(.no-change) {
+  background: #9dd1ff !important;
+  color: #063462 !important;
+  line-height: 1.25 !important;
+}
+.fontbgbgwhitecolorblack #header .name,
+.fontbgbgblackcolorwhite #header .name,
+.fontbgbluecolor #header .name {
+  text-shadow: none;
+}
+html body #special-version-controls {
+  display: none;
+  background: #d6d6d6 !important;
+  line-height: 40px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 100500;
+  box-shadow: 0 0 15px -2px #000000;
+  padding: 10px 0;
+}
+html body #special-version-controls > div {
+  margin: 0 auto;
+  max-width: 770px;
+  position: relative;
+}
+html body #special-version-controls > div > div {
+  display: inline-block;
+  color: #000;
+  font-size: 18px !important;
+  margin: 0 20px 0 0;
+}
+html body #special-version-controls #cr_version_link {
+  color: #000;
+  cursor: pointer;
+  display: block;
+  font-size: 18px !important;
+  font-weight: 400;
+  padding-left: 36px;
+  width: 148px !important;
+  text-decoration: none;
+}
+html body #special-version-controls #crfont-style a {
+  text-decoration: none;
+}
+html body #special-version-controls #crfont-style a:first-child {
+  font-size: 16px !important;
+}
+html body #special-version-controls #crfont-style a:nth-child(2) {
+  font-size: 20px !important;
+}
+html body #special-version-controls #crfont-style a:nth-child(3) {
+  font-size: 24px !important;
+}
+html body #special-version-controls #crfont-style a:nth-child(4) {
+  font-size: 28px !important;
+}
+html body #special-version-controls #bgcolor-style a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 11px;
+}
+html body #special-version-controls #bgcolor-style a:first-child {
+  background-color: #fff;
+  color: #000000;
+}
+html body #special-version-controls #bgcolor-style a:nth-child(2) {
+  background-color: #000;
+  color: #ffffff;
+}
+html body #special-version-controls #bgcolor-style a:nth-child(3) {
+  background-color: #9DD1FF;
+  color: #063462;
+}
+html body #special-version-controls .close {
+  cursor: pointer;
+  display: block;
+  font-size: 18px !important;
+  position: absolute;
+  right: 0;
+  top: -13px;
+}
+.transition300 {
+  transition: all ease 300ms;
+  -webkit-transition: all ease 300ms;
+  -o-transition: all ease 300ms;
+  -moz-transition: all ease 300ms;
+  -ms-transition: all ease 300ms;
+}
+header .special-version.special-version-btn {
+  width: 100px !important;
+  /* height: 85px !important; */
+  float: right;
+  position: absolute;
+  padding: 43px 0px 5px;
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 700;
+  margin: 30px 35px 0px 0px;
+  border: 1px solid #d4d3cf;
+  border-radius: 10px;
+  cursor: pointer;
+  background: url(../images/special_version_icon.png) center -10px no-repeat !important;
+  position: relative;
+  transition: all ease 300ms;
+  -webkit-transition: all ease 300ms;
+  -o-transition: all ease 300ms;
+  -moz-transition: all ease 300ms;
+  -ms-transition: all ease 300ms;
+}
+header .special-version.special-version-btn:hover {
+  background-image: url('../images/special_version_icon_hov.png') !important;
+  background-color: #902c72 !important;
+  color: #fff;
+}
+.fontsize28 main#content {
+  height: inherit !important;
+}
+.fontsize28 .nav.menu {
+  background-color: #f8f7f1;
+  margin: -30px 0 0;
+}
+.fontsize28 .strip .carousel {
+  margin: 145px auto 41px;
+  height: 380px !important;
+  position: static;
+  text-align: center;
+}
+.fontsize28 .blog {
+  margin: 110px 0 0;
+}
+.special-version-enable body {
+  background: #fff;
+}
+.fontsize20 .footer-conts,
+.fontsize24 .footer-conts,
+.fontsize28 .footer-conts,
+.fontbgbluecolor .footer-conts,
+.fontbgbgblackcolorwhite .footer-conts,
+.fontbgbgwhitecolorblack .footer-conts {
+  margin-right: 0px;
+}
+.fontsize20 .muzkino,
+.fontsize24 .muzkino,
+.fontsize28 .muzkino,
+.fontbgbluecolor .muzkino,
+.fontbgbgblackcolorwhite .muzkino,
+.fontbgbgwhitecolorblack .muzkino {
+  bottom: 0px;
+  left: 0px;
+  position: static;
+  text-decoration: underline;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.fontsize20 .letter,
+.fontsize24 .letter,
+.fontsize28 .letter,
+.fontbgbluecolor .letter,
+.fontbgbgblackcolorwhite .letter,
+.fontbgbgwhitecolorblack .letter {
+  background: none;
+}
+.fontsize20 main#content,
+.fontsize24 main#content,
+.fontsize28 main#content,
+.fontbgbluecolor main#content,
+.fontbgbgblackcolorwhite main#content,
+.fontbgbgwhitecolorblack main#content {
+  margin-top: 60px;
+}
+.fontsize20 .atoll,
+.fontsize24 .atoll,
+.fontsize28 .atoll,
+.fontbgbluecolor .atoll,
+.fontbgbgblackcolorwhite .atoll,
+.fontbgbgwhitecolorblack .atoll {
+  display: block;
+  clear: both;
+}
+.fontsize20 .footer-conts,
+.fontsize24 .footer-conts,
+.fontsize28 .footer-conts,
+.fontbgbluecolor .footer-conts,
+.fontbgbgblackcolorwhite .footer-conts,
+.fontbgbgwhitecolorblack .footer-conts {
+  float: left;
+  padding-left: 10px;
+}
+.fontsize20 .atoll-create-site,
+.fontsize24 .atoll-create-site,
+.fontsize28 .atoll-create-site,
+.fontbgbluecolor .atoll-create-site,
+.fontbgbgblackcolorwhite .atoll-create-site,
+.fontbgbgwhitecolorblack .atoll-create-site {
+  float: right;
+  padding-right: 10px;
+}
+.fontsize20 footer,
+.fontsize24 footer,
+.fontsize28 footer,
+.fontbgbluecolor footer,
+.fontbgbgblackcolorwhite footer,
+.fontbgbgwhitecolorblack footer {
+  height: auto !important;
+}
+.fontbgbluecolor .footer-line,
+.fontbgbgblackcolorwhite .footer-line,
+.fontbgbgwhitecolorblack .footer-line {
+  display: none;
+}
+/*# sourceMappingURL=specialv.css.map */
